@@ -47,12 +47,11 @@
 #include "vv/vv-io.h"
 #include "pid.h"
 #include "common/common-stats.h"
+#include "common/pid.h"
 
 #include "net/net-msg-buffers.h"
 
 #include "engine/engine.h"
-
-struct process_id PID;
 
 extern int zheap_debug;
 long long queries_allocated;
