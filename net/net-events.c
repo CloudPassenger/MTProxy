@@ -36,7 +36,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/epoll.h>
-#include <sys/io.h>
+#if defined(__x86_64__) || defined(__i386__)
+  #include <sys/io.h>
+#endif
 #include <sys/socket.h>
 #include <time.h>
 #include <unistd.h>
