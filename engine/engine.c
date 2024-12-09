@@ -63,6 +63,7 @@
 
 #include "vv/vv-io.h"
 
+#include "mtproto/mtproto-config.h"
 
 #define DEFAULT_EPOLL_WAIT_TIMEOUT 37
 
